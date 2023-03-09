@@ -2,7 +2,8 @@
 Console.WriteLine("Здравствуйте. Добро пожаловать в конвертер. Что хотите сконвертировать?\n" +
     "\n" +
     "1. Доллары в рубли\n" +
-    "2. Рубли в доллары\n" +
+    "2. Рубли в евро\n" +
+    "3. Рубли в доллары\n" +
     "\n" +
     "Выберите 1 пункт из двух.\n" +
     "");
@@ -27,6 +28,14 @@ else if (c == 2)
     c = Convert.ToDouble(Console.ReadLine());
     a = c / 56;
     Console.WriteLine(a + " долларов.");
+}
+else if (c == 3)
+{
+    Console.WriteLine("\n" +
+        "Введите количество рублей.\n");
+    c = Convert.ToDouble(Console.ReadLine());
+    a = c / 60;
+    Console.WriteLine(a + " евро.");
 }
 else
 {
