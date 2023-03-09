@@ -32,6 +32,8 @@ else
 {
     Console.WriteLine("Выберите пункт 1 или 2.");
     Console.WriteLine("ВВЕДИ 1 ИЛИ 2 ИДИОТА КУСОК");
+
+    Console.WriteLine("НЕ НУЖНО ВВОДИТЬ 3 ИЛИ 4 ИЛИ БУКВЫ");
 }
 
 
